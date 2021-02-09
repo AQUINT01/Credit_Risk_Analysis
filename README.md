@@ -1,7 +1,7 @@
 # Credit Risk Analysis
 ## Overview :
 
-Credit Risk is an inherently imbalanced classification problem. In the following analysis, I explored how various Machine Leanring algorithm techniques can be used to train and evaluate models with imbalanced classes  and compare their performance to a real-world setting from LendingClub, a peer2peer lending services company.
+Credit Risk is an inherently imbalanced classification problem. In the following analysis, I explored how various Machine Learning algorithm techniques can be used to train and evaluate models with imbalanced classes  and compare their performance to a real-world setting from LendingClub, a peer2peer lending services company.
 
 
 ## Results: 
@@ -28,7 +28,7 @@ This method, like random oversampling, produced similar precision, *1%* for high
 - ### Undersampling
 <img width="1293" src="https://github.com/AQUINT01/Credit_Risk_Analysis/blob/main/images/Undersampling.png">
 
-The precision scored opposite results for both classes as previously reported but the recall sligthly increased to 67% for the high-risk class and decreased to 42% for the low-risk class. 
+The precision scored opposite results for both classes as previously reported but the recall slightly increased to 67% for the high-risk class and decreased to 42% for the low-risk class. 
 The balance accuracy rate remain the same at *66.23%*.
 
 - ### Combination ( Over- and Under-sampling )
@@ -53,4 +53,4 @@ The main objective of this exercise was to build machine learning algorithms tha
 
 Meeting these requirements can be quite tricky as there is a tradeoff between precision and recall, meaning that increasing the value of one of these metrics often decreases the value of the other. Considering the importance of minimizing company loss, I decided to give more emphasis on reducing false positives, searching for the best hyperparameters that could increase the recall rate. 
 
-As a result, I recommend using the **Easy Ensemble Adaboost** model with a recall of **89%**  for the high-risk class and it also delivered the highest balanced accuracy score of **92%**. 
+As a result, I recommend using the **Easy Ensemble Adaboost** model with a recall of **89%**  for the high-risk class and the highest balanced accuracy score of **92%**. 
